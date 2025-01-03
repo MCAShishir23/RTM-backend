@@ -198,11 +198,8 @@ app.post("/api/checkBooking", (req, res) => {
   });
 });
 
-
-
-
-
-  
    
 const port = process.env.PORT || 2410;
 app.listen(port, () => console.log(`Node app listening on port ${port}!`));
+
+
